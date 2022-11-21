@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll';
 import Typewriter from 'typewriter-effect';
 import Navbar from './Navbar';
 
@@ -39,6 +40,11 @@ const Header = () => {
             />
           </h3>
         </div>
+      </div>
+      <div className="absolute bottom-8 left-2/4 -translate-x-2/4">
+        <Link to="about" spy={true} smooth={true} offset={-70} duration={500}>
+          <i className="w-7 h-11 rounded-[30px] border-[3px] border-white relative inline-block cursor-pointer after:bg-white after:w-1 after:h-3 after:absolute after:top-5 after:left-2/4 after:-translate-x-2/4 after:rounded-md animate-bounce" />
+        </Link>
       </div>
     </header>
   );
