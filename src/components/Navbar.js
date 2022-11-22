@@ -25,7 +25,7 @@ const Navbar = () => {
             className="cursor-pointer select-none font-normal inline"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={0}
             duration={500}
             key={name}
           >
@@ -54,7 +54,7 @@ const navbarItems = [
     path: 'projects',
   },
   {
-    name: 'blog',
+    name: 'Blog',
     path: 'blog',
   },
   {
