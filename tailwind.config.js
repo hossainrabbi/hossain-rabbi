@@ -8,8 +8,12 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          bold: '#0284c7',
-          light: '#0ea5e9',
+          bold: '#1565c0',
+          light: '#1976d2',
+        },
+        secondary: {
+          bold: '#10121B',
+          light: '#2F435C',
         },
       },
       animation: {
