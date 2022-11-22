@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Title = ({ title, description }) => {
+const Title = ({ title, description, email }) => {
   return (
     <div className="text-center text-white py-3">
       <h3
@@ -10,7 +10,17 @@ const Title = ({ title, description }) => {
       >
         {title}
       </h3>
-      <p className="mt-8 text-sm font-light max-w-4xl mx-auto">{description}</p>
+      <p className="mt-8 text-sm font-light max-w-4xl mx-auto">
+        {description}{' '}
+        {email && (
+          <a
+            className="text-primary-bold hover:text-primary-light hover:underline"
+            href="mailto:hossainrabbi259@gmail.com"
+          >
+            hossainrabbi259@gmail.com
+          </a>
+        )}{' '}
+      </p>
     </div>
   );
 };
