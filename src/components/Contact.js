@@ -1,4 +1,3 @@
-import { Button, Textarea, TextInput } from 'flowbite-react';
 import Title from './Title';
 
 const Contact = () => {
@@ -11,31 +10,27 @@ const Contact = () => {
       />
 
       <form className="w-full mx-auto max-w-3xl shadow-[inset_0_0_10px_#000] p-8 rounded-md mt-5">
-        <TextInput
-          id="name"
+        <input
+          className="text-input"
           type="text"
           placeholder="Enter Your Name"
-          required={true}
+          required
         />
-        <TextInput
-          id="email"
+        <input
+          className="text-input  my-3"
           type="email"
-          className="my-3"
           placeholder="Enter Your Email"
-          required={true}
+          required
         />
-        <Textarea
-          id="message"
+        <textarea
+          className="text-input"
           placeholder="Your Message"
-          required={true}
+          required
           rows={4}
         />
-        <Button
-          type="submit"
-          className="!bg-primary-bold hover:!bg-primary-light block w-full px-2 mt-3"
-        >
+        <button type="submit" className="btn-primary w-full mt-3">
           Send
-        </Button>
+        </button>
       </form>
     </section>
   );

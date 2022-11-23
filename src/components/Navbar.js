@@ -45,10 +45,7 @@ const Navbar = () => {
           Hossain
         </Link>
         <div className="flex md:order-2">
-          <button
-            type="button"
-            className="text-white bg-primary-bold hover:bg-primary-light focus:ring-4 focus:outline-none focus:outline-secondary-light font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0"
-          >
+          <button type="button" className="btn-primary mr-3 md:mr-0">
             Download Resume
           </button>
           <button
