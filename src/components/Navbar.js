@@ -45,9 +45,13 @@ const Navbar = () => {
           Hossain
         </Link>
         <div className="flex md:order-2">
-          <button type="button" className="btn-primary mr-3 md:mr-0">
+          <a
+            href="https://drive.google.com/uc?export=download&id=1fSpsvbbgVg6qdagwQbMLSt_4X5pZdDIK"
+            type="button"
+            className="btn-primary mr-3 md:mr-0"
+          >
             Download Resume
-          </button>
+          </a>
           <button
             type="button"
             className="inline-flex items-center py-2 px-3 text-xl text-primary-bold bg-secondary-bold rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-secondary-light"
