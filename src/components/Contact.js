@@ -10,7 +10,7 @@ const Contact = () => {
       'I will reply as soon as possible!',
       'success'
     );
-  } else if (state?.errors[0]?.message) {
+  } else if (state?.errors?.length) {
     swal('Message Sending Fail!', state?.errors[0]?.message, 'error');
   }
 
