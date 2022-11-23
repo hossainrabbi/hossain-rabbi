@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="wrapper flex flex-wrap items-center justify-between">
         <Link
           to="home"
-          className="whitespace-nowrap text-xl font-semibold cursor-pointer select-none"
+          className="whitespace-nowrap text-xl font-semibold cursor-pointer select-none font-lobster"
           onClick={() => animateScroll.scrollToTop()}
         >
           Hossain
