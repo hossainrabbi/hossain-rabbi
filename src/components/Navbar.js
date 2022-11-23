@@ -75,7 +75,7 @@ const Navbar = () => {
                   block md:inline-block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 md:mx-3 lg:mx-4 xl:mx-5 cursor-pointer select-none font-normal hover:text-primary-bold mb-4 md:mb-0"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-20}
                   duration={500}
                   key={name}
                 >
