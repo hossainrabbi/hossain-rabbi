@@ -9,7 +9,7 @@ const Project = ({
   gitHubLink,
 }) => {
   return (
-    <article className="grid lg:grid-cols-2 place-items-center lg:gap-6 shadow-md lg:shadow-none text-white my-10 border border-transparent hover:border-gray-900 lg:border-none">
+    <article className="grid lg:grid-cols-2 place-items-center lg:gap-6 shadow-[0_2px_5px_#000] hover:shadow-md lg:shadow-none text-white my-10">
       <div className="w-full h-64 sm:h-80 overflow-hidden relative">
         <img
           className="w-full h-auto transition-all duration-[1s] absolute z-0 top-0 hover:-top-full"
