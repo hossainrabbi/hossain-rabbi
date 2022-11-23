@@ -48,6 +48,8 @@ const Navbar = () => {
           <a
             href="https://drive.google.com/uc?export=download&id=1fSpsvbbgVg6qdagwQbMLSt_4X5pZdDIK"
             type="button"
+            target="_blank"
+            rel="noreferrer"
             className="btn-primary mr-3 md:mr-0"
           >
             Download Resume
