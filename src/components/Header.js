@@ -10,6 +10,7 @@ const Header = () => {
         backgroundImage:
           "url('/assets/header.jpg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))",
       }}
+      id="home"
     >
       <Navbar />
       <div

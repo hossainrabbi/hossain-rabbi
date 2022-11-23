@@ -32,7 +32,7 @@ const Contact = () => {
         />
         <Button
           type="submit"
-          className="!bg-secondary-light block w-full px-2 mt-3"
+          className="!bg-primary-bold hover:!bg-primary-light block w-full px-2 mt-3"
         >
           Send
         </Button>

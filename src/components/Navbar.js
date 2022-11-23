@@ -17,12 +17,12 @@ const Navbar = () => {
         </Button>
         <Menubar.Toggle />
       </div>
-      <Menubar.Collapse>
+      <Menubar.Collapse className="bg-secondary-light text-center md:bg-transparent z-10 rounded md:rounded-none">
         {navbarItems.map(({ name, path }) => (
           <Link
             to={path}
-            activeClass="text-primary-bold"
-            className="cursor-pointer select-none font-normal inline"
+            activeClass="!text-primary-light"
+            className="cursor-pointer select-none font-normal inline hover:text-primary-bold mb-4 md:mb-0"
             spy={true}
             smooth={true}
             offset={0}
@@ -43,7 +43,7 @@ export default Navbar;
 const navbarItems = [
   {
     name: 'Home',
-    path: '/',
+    path: 'home',
   },
   {
     name: 'About',
