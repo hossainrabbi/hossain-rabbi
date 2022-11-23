@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import { Link, animateScroll } from 'react-scroll';
+import { FaBars } from 'react-icons/fa';
 
 const Navbar = () => {
   const [scrollNavbar, setScrollNavbar] = useState(false);
@@ -52,18 +53,20 @@ const Navbar = () => {
           </button>
           <button
             type="button"
-            className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center py-2 px-3 text-xl text-primary-bold bg-secondary-bold rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-secondary-light"
             onClick={handleShowMenu}
           >
-            X
+            <FaBars />
           </button>
         </div>
         <div
-          className="items-center justify-between w-full md:flex md:w-auto md:order-1 bg-secondary-bold text-center md:bg-transparent z-10 rounded md:rounded-none transition-all overflow-hidden md:overflow-auto h-0 md:!h-auto"
+          className={`items-center justify-between w-full md:flex md:w-auto md:order-1 md:mt-0 bg-secondary-bold text-center md:bg-transparent z-10 rounded md:rounded-none transition-all overflow-hidden md:overflow-auto h-0 md:!h-auto ${
+            showMenu ? 'mt-2' : 'mt-0'
+          }`}
           ref={menuRef}
         >
           <ul
-            className="flex flex-col p-4 mt-4 md:flex-row md:gap-5 md:mt-0 md:text-sm md:font-medium"
+            className="flex flex-col pt-2 px-2 md:flex-row md:gap-5 md:mt-0 md:text-sm md:font-medium"
             ref={listRef}
           >
             <li>
@@ -71,8 +74,7 @@ const Navbar = () => {
                 <Link
                   to={path}
                   activeClass="!bg-primary-light md:!bg-transparent !text-white md:!text-primary-light"
-                  className="
-                  block md:inline-block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 md:mx-3 lg:mx-4 xl:mx-5 cursor-pointer select-none font-normal hover:text-primary-bold mb-4 md:mb-0"
+                  className="block md:inline-block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 md:mx-3 lg:mx-4 xl:mx-5 cursor-pointer select-none font-normal hover:text-primary-bold"
                   spy={true}
                   smooth={true}
                   offset={-20}
