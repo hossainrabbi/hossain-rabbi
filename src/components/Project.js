@@ -19,7 +19,8 @@ const Project = ({
       </div>
       <div className="p-8 lg:p-0">
         <h4 className="text-2xl">{name}</h4>
-        <p className="text-sm my-5">{description}</p>
+        <p className="text-sm my-3">{description}</p>
+        <h5 className="text-md mb-1">Technology Used:</h5>
         <div>
           {technologies.map((technology) => (
             <button className="skill-btn" key={technology}>

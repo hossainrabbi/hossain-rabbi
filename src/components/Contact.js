@@ -15,7 +15,7 @@ const Contact = () => {
   }
 
   return (
-    <section className="wrapper py-10" id="contact">
+    <section className="wrapper py-10 shadow" id="contact">
       <Title
         title="Get In Touch"
         description="Interested in hiring me for your project or just want to say hi? You can fill in the contact form below or send me an email to:"
