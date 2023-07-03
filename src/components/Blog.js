@@ -1,11 +1,11 @@
-import React from 'react';
-import { blogs } from '../data/data';
-import BlogItem from './BlogItem';
-import Title from './Title';
+import React from "react";
+import { blogs } from "../data/data";
+import BlogItem from "./BlogItem";
+import Title from "./Title";
 
 const Blog = () => {
   return (
-    <section className="wrapper py-10" id="blog">
+    <section className="wrapper pt-10" id="blog">
       <Title
         title="My Article"
         description="I am not a very good writer and very weak in English. But, I tried to write some blogs in what English I know. Here are some of my blogs:"

@@ -1,10 +1,10 @@
-import { skillsData } from '../data/data';
-import SkillItem from './SkillItem';
-import Title from './Title';
+import { skillsData } from "../data/data";
+import SkillItem from "./SkillItem";
+import Title from "./Title";
 
 const About = () => {
   return (
-    <section className="wrapper py-10" id="about">
+    <section className="wrapper pt-10" id="about">
       <Title
         title="What I Do?"
         description="Always ready to prove myself through my work and responsibility. To

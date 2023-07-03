@@ -3,7 +3,7 @@ const BlogItem = ({ image, title, desc, link }) => {
     <article className="text-white bg-secondary-light rounded">
       <div className="overflow-hidden">
         <img
-          className="w-full h-56 object-cover transition-transform hover:scale-[1.2] rounded-t"
+          className="w-full h-64 object-cover transition-transform hover:scale-[1.2] rounded-t"
           src={image}
           alt={title}
         />

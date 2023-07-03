@@ -1,21 +1,21 @@
-import { useForm } from '@formspree/react';
-import swal from 'sweetalert';
-import Title from './Title';
+import { useForm } from "@formspree/react";
+import swal from "sweetalert";
+import Title from "./Title";
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm('mdojvnoy');
+  const [state, handleSubmit] = useForm("mdojvnoy");
   if (state.succeeded) {
     swal(
-      'Thanks for sending the message!',
-      'I will reply as soon as possible!',
-      'success'
+      "Thanks for sending the message!",
+      "I will reply as soon as possible!",
+      "success"
     );
   } else if (state?.errors?.length) {
-    swal('Message Sending Fail!', state?.errors[0]?.message, 'error');
+    swal("Message Sending Fail!", state?.errors[0]?.message, "error");
   }
 
   return (
-    <section className="wrapper py-10 shadow" id="contact">
+    <section className="wrapper pt-10 shadow" id="contact">
       <Title
         title="Get In Touch"
         description="Interested in hiring me for your project or just want to say hi? You can fill in the contact form below or send me an email to:"
@@ -52,7 +52,7 @@ const Contact = () => {
           className="btn-primary w-full mt-3"
           disabled={state.submitting}
         >
-          {state.submitting ? 'Sending...' : 'Send'}
+          {state.submitting ? "Sending..." : "Send"}
         </button>
       </form>
     </section>
