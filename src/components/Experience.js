@@ -5,7 +5,7 @@ export default function Experience() {
     <section className="wrapper pt-10" id="experience">
       <Title
         title="Work Experience"
-        description="I enjoy turning complex problems into simple, beautiful, and intuitive interface designs. I develop lots of sites with React JS in front-end and back-end with Node JS, Express JS, and MongoDB. Here are some of my projects:"
+        // description="I enjoy turning complex problems into simple, beautiful, and intuitive interface designs. I develop lots of sites with React JS in front-end and back-end with Node JS, Express JS, and MongoDB. Here are some of my projects:"
       />
 
       <div className="flex justify-end mt-10">
@@ -33,22 +33,16 @@ export default function Experience() {
               <p className="block text-sm font-normal leading-none text-gray-400 dark:text-gray-400">
                 Market Access Analytics and Consulting (MAAC)
               </p>
-              <ul className="list-disc ml-4 mt-3">
+              <p className="text-white mt-3 text-sm">
+                Developing and maintaining B2B, B2C, and corporate web
+                applications using React.js, Redux.js, and other related
+                frontend technologies.
+              </p>
+              {/* <ul className="list-disc ml-4 mt-3">
                 <li className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
-                  Developing and maintaining web applications using React.js,
-                  Next.js and other related technologies.
+                 
                 </li>
-                <li className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
-                  Developing client-side applications using TypeScript, and
-                  integrating TypeScript with React.js, Next.js, and other
-                  front-end frameworks.
-                </li>
-                <li className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
-                  Working with GraphQL clients, such as Apollo Client, and
-                  optimizing GraphQL queries for performance and minimizing
-                  network usage.
-                </li>
-              </ul>
+              </ul> */}
             </div>
           </li>
         </ol>

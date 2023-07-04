@@ -11,8 +11,8 @@ export default function App() {
     <div className="bg-secondary-bold">
       <Header />
       <About />
-      <Experience />
       <Projects />
+      <Experience />
       <Blog />
       <Contact />
       <Footer />
