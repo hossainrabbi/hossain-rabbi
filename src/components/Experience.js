@@ -8,7 +8,7 @@ export default function Experience() {
         // description="I enjoy turning complex problems into simple, beautiful, and intuitive interface designs. I develop lots of sites with React JS in front-end and back-end with Node JS, Express JS, and MongoDB. Here are some of my projects:"
       />
 
-      <div className="flex justify-end mt-10">
+      <div className="flex justify-end mt-0">
         <ol className="relative border-l border-gray-200 dark:border-gray-700 w-1/2">
           <li className="ml-8">
             <span
