@@ -91,24 +91,24 @@ export const projectsData = [
     liveLink: "https://my-tube-react.netlify.app",
     gitHubLink: "https://github.com/hossainrabbi/my-tube",
   },
-  {
-    id: 3,
-    name: "FixTech - (Services Web Project)",
-    image: "/assets/projects/FixTech.png",
-    technologies: [
-      "ReactJS",
-      "React-Bootstrap",
-      "Axios",
-      "Firebase",
-      "React-Hook-Form",
-      "FortAwesome",
-      "Stripe",
-    ],
-    description:
-      "This is a simple Computer services application. There are 2 roles: admin and user(customer). If you are a Admin? You can add services and delete services. You can see and change the booking status. You can make a admin using by email. If you are a User? you can book a service, see booking list and review this website. Here the login system is implemented using Firebase and payment system implemented using stripe.",
-    liveLink: "https://fixtech-hr.web.app",
-    gitHubLink: "https://github.com/hossainrabbi/fixtech-client",
-  },
+  // {
+  //   id: 3,
+  //   name: "FixTech - (Services Web Project)",
+  //   image: "/assets/projects/FixTech.png",
+  //   technologies: [
+  //     "ReactJS",
+  //     "React-Bootstrap",
+  //     "Axios",
+  //     "Firebase",
+  //     "React-Hook-Form",
+  //     "FortAwesome",
+  //     "Stripe",
+  //   ],
+  //   description:
+  //     "This is a simple Computer services application. There are 2 roles: admin and user(customer). If you are a Admin? You can add services and delete services. You can see and change the booking status. You can make a admin using by email. If you are a User? you can book a service, see booking list and review this website. Here the login system is implemented using Firebase and payment system implemented using stripe.",
+  //   liveLink: "https://fixtech-hr.web.app",
+  //   gitHubLink: "https://github.com/hossainrabbi/fixtech-client",
+  // },
 ];
 
 // Blogs Data

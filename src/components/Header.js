@@ -1,6 +1,6 @@
-import { Link } from 'react-scroll';
-import Typewriter from 'typewriter-effect';
-import Navbar from './Navbar';
+import { Link } from "react-scroll";
+import Typewriter from "typewriter-effect";
+import Navbar from "./Navbar";
 
 const Header = () => {
   return (
@@ -16,7 +16,7 @@ const Header = () => {
       <div
         className="wrapper absolute flex justify-center items-center text-center top-2/4 left-2/4"
         style={{
-          transform: 'translate(-50%, -50%)',
+          transform: "translate(-50%, -50%)",
         }}
       >
         <div className="text-white">
@@ -31,9 +31,9 @@ const Header = () => {
             <Typewriter
               options={{
                 strings: [
-                  'JavaScript Developer...',
-                  'React Developer...',
-                  'Front End Developer...',
+                  "JavaScript Developer...",
+                  "React Developer...",
+                  "Front End Developer...",
                 ],
                 autoStart: true,
                 loop: true,
