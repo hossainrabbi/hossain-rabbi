@@ -1,37 +1,34 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        lobster: ['Lobster', 'cursive'],
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "1rem",
+          lg: "1rem",
+          xl: "2rem",
+          "2xl": "4rem",
+        },
       },
       colors: {
-        primary: {
-          bold: '#1565c0',
-          light: '#1976d2',
-        },
-        secondary: {
-          bold: '#10121B',
-          light: '#2F435C',
-        },
+        primary: "#384DDA",
+        secondary: "#242E4F",
+        "accent-dark": "#5B5D72",
+        accent: "#EBECFF",
+        light: "#F4F4F4",
+        dark: "#181C29",
       },
-      animation: {
-        bounce: 'bounce 2s infinite',
+      textColor: {
+        main: "#1B1B1F",
+        normal: "#5B5D72",
       },
-      keyframes: {
-        bounce: {
-          '0%, 20%, 50%, 80%, 100%': {
-            transform: 'translateY(0)',
-          },
-          '40%': {
-            transform: 'translateY(-30px)',
-          },
-          '60%': {
-            transform: 'translateY(-15px)',
-          },
-        },
+      fontFamily: {
+        sora: ["Sora", "sans-serif"],
       },
     },
   },
+  plugins: [],
 };

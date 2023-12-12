@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+
+@import "react-lazy-load-image-component/src/effects/blur.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+htm,
+body {
+  @apply p-0 m-0 box-border font-sora;
+}
+
+/* scrollbar styles */
+/* width */
+::-webkit-scrollbar {
+  @apply w-2 h-2 rounded;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-secondary rounded;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary;
+}
+
+@layer components {
+  .btn-primary {
+    @apply text-white text-lg p-3 px-5 uppercase bg-primary;
+  }
+}
