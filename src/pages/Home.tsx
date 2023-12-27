@@ -1,3 +1,10 @@
+import Hero from "../components/Home/Hero";
+import AppLayout from "../layouts/AppLayout";
+
 export default function Home() {
-  return <main>Hello</main>;
+  return (
+    <AppLayout>
+      <Hero />
+    </AppLayout>
+  );
 }

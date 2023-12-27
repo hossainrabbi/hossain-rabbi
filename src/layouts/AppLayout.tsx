@@ -2,6 +2,8 @@ import { HTMLAttributes, ReactNode, useEffect } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { useLocation } from "react-router-dom";
 import { animateScroll } from "react-scroll";
+import Navbar from "../components/common/Navbar";
+import { APP_NAME } from "../helpers/config";
 
 type Props = {
   title?: string;
@@ -20,10 +22,10 @@ export default function AppLayout({ title, children }: Props) {
   return (
     <HelmetProvider>
       <Helmet>
-        <meta charSet="utf-8" />
-        <title>{title ? `${title} | Eatonomy` : "Eatonomy"}</title>
-        <meta name="description" content="Eatonomy" />
+        <title>{title ? `${title} | ${APP_NAME}` : APP_NAME}</title>
       </Helmet>
+
+      <Navbar />
 
       {children}
     </HelmetProvider>
