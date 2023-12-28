@@ -1,10 +1,12 @@
+import HeroImage from "../../assets/images/hossainrabbi.jpeg";
+
 export default function Hero() {
   return (
-    <section className="container">
-      <div className="grid grid-cols-2 gap-5">
+    <section className="container py-20">
+      <div className="grid grid-cols-2 items-center gap-5">
         <div>
           <h6 className="text-3xl font-bold text-gray-400">I am a</h6>
-          <h1 className="text-7xl font-extrabold tracking-wide mt-5 mb-14">
+          <h1 className="text-7xl font-extrabold tracking-wide mt-5 mb-10">
             Frontend Developer
           </h1>
           <div>
@@ -13,7 +15,13 @@ export default function Hero() {
             <em className="text-xs font-extralight text-gray-400">{`</script>`}</em>
           </div>
         </div>
-        <div></div>
+        <div className="flex justify-end">
+          <img
+            className="rounded-full w-96 h-96 object-cover"
+            src={HeroImage}
+            alt="HossainRabbi"
+          />
+        </div>
       </div>
     </section>
   );
