@@ -32,4 +32,12 @@ body {
   .btn-primary {
     @apply text-white text-lg p-3 px-5 uppercase bg-primary;
   }
+
+  .skill-btn {
+    @apply text-[12px] bg-gray-200 rounded text-gray-700 px-2 py-1 m-[2px];
+  }
+
+  .text-input {
+    @apply bg-secondary-bold border border-graybg-gray-200 text-gray-700 text-sm rounded-lg focus:ring-graybg-gray-200 focus:border-graybg-gray-200 block w-full p-2.5;
+  }
 }

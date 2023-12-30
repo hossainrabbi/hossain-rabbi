@@ -3,7 +3,7 @@ import Title from "../common/Title";
 
 export default function About() {
   return (
-    <section className="wrapper pt-10" id="about">
+    <section className="container pb-20" id="about">
       <Title
         title="What I Do?"
         description="Always ready to prove myself through my work and responsibility. To
@@ -27,15 +27,15 @@ export const skillsData = [
     name: "Good Knowledge with:",
     skills: [
       "HTML5",
-      "Semantic HTML",
       "CSS3",
       "JavaScript",
+      "TypeScript",
       "ReactJS",
       "ReduxJS",
       "Tailwind CSS",
       "BootStrap",
-      "React BootStrap",
-      "EJS",
+      "Antd",
+      "SASS",
     ],
     icon: "/assets/skills/good-knowledge.png",
   },
@@ -43,13 +43,12 @@ export const skillsData = [
     id: 2,
     name: "Familiar with:",
     skills: [
-      "TypeScript",
+      "NextJS",
       "Styled Components",
       "NodeJS",
       "Express JS",
       "REST API",
-      "Mongoose",
-      "SASS",
+      "MongoDB",
       "Material ui",
     ],
     icon: "/assets/skills/familiar.png",
@@ -59,13 +58,13 @@ export const skillsData = [
     name: "Others (Tools):",
     skills: [
       "VS Code",
+      "Postman",
       "Git",
       "GitHub",
       "Netlify",
       "Heroku",
       "Render",
       "Firebase",
-      "Postman",
       "NPM",
       "Yarn",
     ],

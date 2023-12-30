@@ -25,9 +25,10 @@ export default function AppLayout({ title, children }: Props) {
         <title>{title ? `${title} | ${APP_NAME}` : APP_NAME}</title>
       </Helmet>
 
-      <Navbar />
-
-      {children}
+      <main className="">
+        <Navbar />
+        {children}
+      </main>
     </HelmetProvider>
   );
 }
