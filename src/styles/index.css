@@ -41,3 +41,7 @@ body {
     @apply bg-secondary-bold border border-graybg-gray-200 text-gray-700 text-sm rounded-lg focus:ring-graybg-gray-200 focus:border-graybg-gray-200 block w-full p-2.5;
   }
 }
+
+.project_technology:hover .technology {
+  @apply opacity-100 visible;
+}
