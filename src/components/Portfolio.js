@@ -12,12 +12,12 @@ export default function Portfolio({
 }) {
   return (
     <article className={`text-white my-8 lg:my-12 relative`}>
-      <div className="absolute -left-10 top-1 bg-primary-bold h-6 w-6 rounded-full flex justify-center items-center ring-offset-2 ring-2 ring-primary-light">
+      <div className="absolute hidden lg:flex -left-10 top-1 bg-primary-bold h-6 w-6 rounded-full  justify-center items-center ring-offset-2 ring-2 ring-primary-light">
         <IoBagHandle />
       </div>
 
       <div
-        className={`w-0.5 bg-white absolute top-10 ${
+        className={`w-0.5 bg-white hidden lg:block absolute top-10 ${
           hideLine ? "h-[calc(100%-2.5rem)]" : "h-full"
         }`}
         style={{ left: "-1.82rem" }}
