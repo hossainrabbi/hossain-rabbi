@@ -46,7 +46,7 @@ const Navbar = () => {
         </Link>
         <div className="flex md:order-2">
           <a
-            href="https://drive.google.com/uc?export=download&id=1C_DTJ4GcT5A4Go3Dz3i6LQaTpwwdg574"
+            href="https://drive.google.com/uc?export=download&id=1o8pOxxQw34QADXKrlLpLwNa_HqaTNY60"
             type="button"
             target="_blank"
             rel="noreferrer"

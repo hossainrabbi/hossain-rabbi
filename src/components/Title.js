@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Title = ({ title, description, email }) => {
   return (
@@ -10,8 +10,8 @@ const Title = ({ title, description, email }) => {
       >
         {title}
       </h3>
-      <p className="mt-8 text-sm font-light max-w-4xl mx-auto">
-        {description}{' '}
+      <p className="mt-6 text-sm font-light max-w-4xl mx-auto">
+        {description}{" "}
         {email && (
           <a
             className="text-primary-bold hover:text-primary-light hover:underline"
@@ -19,7 +19,7 @@ const Title = ({ title, description, email }) => {
           >
             hossainrabbi259@gmail.com
           </a>
-        )}{' '}
+        )}{" "}
       </p>
     </div>
   );

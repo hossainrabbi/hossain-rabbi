@@ -7,7 +7,7 @@ const About = () => {
     <section className="wrapper pt-10" id="about">
       <Title
         title="What I Do?"
-        description="Always ready to prove myself through my work and responsibility. To
+        description="I enjoy turning complex problems into simple, beautiful, and intuitive interface designs. Always ready to prove myself through my work and responsibility. To
         establish myself as an outstanding performer, Discovering something new
         every single day is one of my favorite parts of being a High-Level
         programmer. Below are my skills:"
